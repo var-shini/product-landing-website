@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #91c3aa;
+}
+
+.header, .footer {
+    background-color:#365E32;
+    color: #FFF67E;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navigation a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navigation a:hover {
+    background-color: #b4c269;
+}
+
+.hero {
+    padding: 50px 0;
+    background-color: #B3E2A7;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FCFFE0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.features, .how-it-works, .testimonials, .pricing, .why-smart-notebook {
+    padding: 50px 0;
+    background-color: #B3E2A7;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    max-width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.feature, .testimonial, .pricing-details {
+    background-color: #D7E4C0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.why-smart-notebook ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-smart-notebook li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.why-smart-notebook ul {
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+}
